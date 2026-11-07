@@ -1,0 +1,771 @@
+{
+  "users": [
+    {
+      "_id": "usr_sarah_1",
+      "name": "Sarah Connor",
+      "email": "sarah@taskflow.dev",
+      "password": "$2a$10$icImVqElE39ji1qe3LOvGOWrnxIwkB54WdqAUu2Iwi/qLzTVwRLqW",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "role": "Lead Product Designer & PM",
+      "bio": "Crafting intuitive human-centered digital workflows. Figma enthusiast & agile coordinator.",
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "updatedAt": "2026-01-15T09:00:00.000Z"
+    },
+    {
+      "_id": "usr_alex_2",
+      "name": "Alex Rivera",
+      "email": "alex@taskflow.dev",
+      "password": "$2a$10$icImVqElE39ji1qe3LOvGOWrnxIwkB54WdqAUu2Iwi/qLzTVwRLqW",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "Senior Full-Stack Engineer",
+      "bio": "TypeScript, React, Node.js systems, and snappy drag-and-drop user experiences.",
+      "createdAt": "2026-01-16T10:00:00.000Z",
+      "updatedAt": "2026-01-16T10:00:00.000Z"
+    },
+    {
+      "_id": "usr_david_3",
+      "name": "David Chen",
+      "email": "david@taskflow.dev",
+      "password": "$2a$10$icImVqElE39ji1qe3LOvGOWrnxIwkB54WdqAUu2Iwi/qLzTVwRLqW",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "role": "Cloud & Distributed Systems Architect",
+      "bio": "Distributed databases, WebSockets pipelines, and microsecond query optimization.",
+      "createdAt": "2026-01-17T11:00:00.000Z",
+      "updatedAt": "2026-01-17T11:00:00.000Z"
+    },
+    {
+      "_id": "usr_elena_4",
+      "name": "Elena Rostova",
+      "email": "elena@taskflow.dev",
+      "password": "$2a$10$icImVqElE39ji1qe3LOvGOWrnxIwkB54WdqAUu2Iwi/qLzTVwRLqW",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "UI/UX & Design Systems Lead",
+      "bio": "Obsessed with typography, spacing tokens, micro-interactions, and accessibility standards.",
+      "createdAt": "2026-01-18T12:00:00.000Z",
+      "updatedAt": "2026-11-07T10:46:22.362Z"
+    },
+    {
+      "_id": "usr_maya_5",
+      "name": "Maya Lin",
+      "email": "maya@taskflow.dev",
+      "password": "$2a$10$icImVqElE39ji1qe3LOvGOWrnxIwkB54WdqAUu2Iwi/qLzTVwRLqW",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "role": "QA & Product Growth Engineer",
+      "bio": "Ensuring bug-free delivery, user journey telemetry, and customer retention metrics.",
+      "createdAt": "2026-01-19T14:00:00.000Z",
+      "updatedAt": "2026-01-19T14:00:00.000Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "_id": "ws_apex_1",
+      "name": "Apex Digital — Product Studio",
+      "description": "Central engineering and product workspace for flagship client and internal SaaS builds.",
+      "slug": "apex-digital",
+      "owner": "usr_sarah_1",
+      "createdAt": "2026-01-20T08:00:00.000Z",
+      "updatedAt": "2026-01-20T08:00:00.000Z"
+    },
+    {
+      "_id": "ws_fintech_2",
+      "name": "Fintech Next — Mobile Lab",
+      "description": "Next-gen payment rails, crypto liquidity pools, and compliance validation.",
+      "slug": "fintech-next",
+      "owner": "usr_alex_2",
+      "createdAt": "2026-02-01T08:00:00.000Z",
+      "updatedAt": "2026-02-01T08:00:00.000Z"
+    }
+  ],
+  "workspaceMembers": [
+    {
+      "_id": "wsm_1",
+      "workspace": "ws_apex_1",
+      "user": "usr_sarah_1",
+      "role": "owner",
+      "joinedAt": "2026-01-20T08:00:00Z"
+    },
+    {
+      "_id": "wsm_2",
+      "workspace": "ws_apex_1",
+      "user": "usr_alex_2",
+      "role": "admin",
+      "joinedAt": "2026-01-21T09:00:00Z"
+    },
+    {
+      "_id": "wsm_3",
+      "workspace": "ws_apex_1",
+      "user": "usr_david_3",
+      "role": "member",
+      "joinedAt": "2026-01-22T10:00:00Z"
+    },
+    {
+      "_id": "wsm_4",
+      "workspace": "ws_apex_1",
+      "user": "usr_elena_4",
+      "role": "member",
+      "joinedAt": "2026-01-23T11:00:00Z"
+    },
+    {
+      "_id": "wsm_5",
+      "workspace": "ws_apex_1",
+      "user": "usr_maya_5",
+      "role": "member",
+      "joinedAt": "2026-01-24T12:00:00Z"
+    },
+    {
+      "_id": "wsm_6",
+      "workspace": "ws_fintech_2",
+      "user": "usr_alex_2",
+      "role": "owner",
+      "joinedAt": "2026-02-01T08:00:00Z"
+    },
+    {
+      "_id": "wsm_7",
+      "workspace": "ws_fintech_2",
+      "user": "usr_sarah_1",
+      "role": "member",
+      "joinedAt": "2026-02-02T09:00:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "proj_banking_1",
+      "name": "Mobile Banking App 3.0",
+      "description": "Human-centered retail banking application with biometric security, budget analytics, and instant transfers.",
+      "workspace": "ws_apex_1",
+      "owner": "usr_sarah_1",
+      "status": "active",
+      "deadline": "2026-11-21T10:38:07.131Z",
+      "color": "#5B5BD6",
+      "icon": "smartphone",
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "updatedAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "_id": "proj_designsys_2",
+      "name": "Design System & Token Library",
+      "description": "Unified cross-platform components, color semantic tokens, typography scales, and accessible form inputs.",
+      "workspace": "ws_apex_1",
+      "owner": "usr_elena_4",
+      "status": "active",
+      "deadline": "2026-12-02T10:38:07.131Z",
+      "color": "#20B8A6",
+      "icon": "palette",
+      "createdAt": "2026-02-05T11:00:00.000Z",
+      "updatedAt": "2026-02-05T11:00:00.000Z"
+    },
+    {
+      "_id": "proj_cloudsync_3",
+      "name": "Cloud Sync & Realtime Engine",
+      "description": "Sub-50ms WebSocket push notifications, distributed conflict-free replicated data types, and offline queueing.",
+      "workspace": "ws_apex_1",
+      "owner": "usr_david_3",
+      "status": "active",
+      "deadline": "2026-11-25T10:38:07.131Z",
+      "color": "#F97316",
+      "icon": "cloud-lightning",
+      "createdAt": "2026-02-08T09:00:00.000Z",
+      "updatedAt": "2026-02-08T09:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "task_1",
+      "title": "Biometric FaceID & TouchID fallback authentication",
+      "description": "Implement native device biometric authorization with graceful PIN code fallback when sensor is unavailable or rejected 3 times.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "done",
+      "priority": "medium",
+      "assignee": "usr_alex_2",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-11-09T10:38:07.131Z",
+      "dueDate": "2026-11-17T10:38:07.131Z",
+      "labels": [
+        "Security",
+        "Mobile",
+        "iOS"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_1_1",
+          "title": "Evaluate LocalAuthentication framework bounds",
+          "completed": true
+        },
+        {
+          "id": "sub_1_2",
+          "title": "Keychain securely stored session refresh token",
+          "completed": false
+        },
+        {
+          "id": "sub_1_3",
+          "title": "Failover PIN keypad UI vibration feedback",
+          "completed": false
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att_1",
+          "name": "biometric-flowchart.png",
+          "size": "1.4 MB",
+          "url": "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=600",
+          "uploadedAt": "2026-02-02T10:00:00Z",
+          "uploadedBy": "usr_sarah_1"
+        }
+      ],
+      "order": 0,
+      "createdAt": "2026-02-02T10:00:00.000Z",
+      "updatedAt": "2026-11-07T10:38:23.461Z"
+    },
+    {
+      "_id": "task_2",
+      "title": "Apple Watch quick balance complication widget",
+      "description": "Create watchOS glanceable complication showing current account balance and recent contactless payments.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "backlog",
+      "priority": "low",
+      "assignee": "usr_elena_4",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-11-14T10:38:07.131Z",
+      "dueDate": "2026-11-27T10:38:07.131Z",
+      "labels": [
+        "Wearable",
+        "Design",
+        "Widget"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_2_1",
+          "title": "Modular small and graphic rectangular templates",
+          "completed": true
+        },
+        {
+          "id": "sub_2_2",
+          "title": "WatchConnectivity background sync protocol",
+          "completed": false
+        }
+      ],
+      "attachments": [],
+      "order": 1,
+      "createdAt": "2026-02-03T11:00:00.000Z",
+      "updatedAt": "2026-02-03T11:00:00.000Z"
+    },
+    {
+      "_id": "task_3",
+      "title": "Accessibility audit for WCAG 2.1 AA compliance",
+      "description": "Ensure all contrast ratios exceed 4.5:1, screen reader ARIA live regions announce balance changes, and keyboard navigation works smoothly.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "usr_elena_4",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-11-06T10:38:07.131Z",
+      "dueDate": "2026-11-10T10:38:07.131Z",
+      "labels": [
+        "Accessibility",
+        "A11y",
+        "Design System"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_3_1",
+          "title": "Run axe-core automated scanner on all pages",
+          "completed": true
+        },
+        {
+          "id": "sub_3_2",
+          "title": "Color contrast check on warm orange and teal badges",
+          "completed": true
+        },
+        {
+          "id": "sub_3_3",
+          "title": "VoiceOver and TalkBack screen reader manual verification",
+          "completed": false
+        },
+        {
+          "id": "sub_3_4",
+          "title": "Focus ring indicators on modal inputs",
+          "completed": false
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att_2",
+          "name": "wcag-compliance-checklist.pdf",
+          "size": "420 KB",
+          "url": "#",
+          "uploadedAt": "2026-02-04T09:30:00Z",
+          "uploadedBy": "usr_elena_4"
+        }
+      ],
+      "order": 0,
+      "createdAt": "2026-02-04T09:00:00.000Z",
+      "updatedAt": "2026-02-04T09:00:00.000Z"
+    },
+    {
+      "_id": "task_4",
+      "title": "Multi-currency wallet conversion rates API",
+      "description": "Integrate real-time FX currency exchange feeds with 30-second TTL caching and zero-spread calculation preview.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "todo",
+      "priority": "medium",
+      "assignee": "usr_david_3",
+      "creator": "usr_alex_2",
+      "startDate": "2026-11-07T10:38:07.131Z",
+      "dueDate": "2026-11-13T10:38:07.131Z",
+      "labels": [
+        "API",
+        "Backend",
+        "Fintech"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_4_1",
+          "title": "Connect to European Central Bank reference feed",
+          "completed": true
+        },
+        {
+          "id": "sub_4_2",
+          "title": "Redis caching layer with jittered revalidation",
+          "completed": false
+        },
+        {
+          "id": "sub_4_3",
+          "title": "Unit tests for floating point rounding discrepancies",
+          "completed": false
+        }
+      ],
+      "attachments": [],
+      "order": 1,
+      "createdAt": "2026-02-04T14:00:00.000Z",
+      "updatedAt": "2026-02-04T14:00:00.000Z"
+    },
+    {
+      "_id": "task_5",
+      "title": "Redesign transaction details drawer with receipt download",
+      "description": "Upgrade the side modal drawer with merchant logo resolution, GPS location map snapshot, downloadable PDF receipt, and category tagging.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "done",
+      "priority": "urgent",
+      "assignee": "usr_sarah_1",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-11-05T10:38:07.131Z",
+      "dueDate": "2026-11-08T10:38:07.131Z",
+      "labels": [
+        "UI/UX",
+        "Components",
+        "High Priority"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_5_1",
+          "title": "Interactive drawer slide animation with spring physics",
+          "completed": true
+        },
+        {
+          "id": "sub_5_2",
+          "title": "Client-side PDF invoice generator",
+          "completed": true
+        },
+        {
+          "id": "sub_5_3",
+          "title": "Merchant categorization pill selector with colors",
+          "completed": false
+        },
+        {
+          "id": "sub_5_4",
+          "title": "Split bill with contacts shortcut",
+          "completed": false
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att_3",
+          "name": "receipt-drawer-v2.fig",
+          "size": "3.8 MB",
+          "url": "#",
+          "uploadedAt": "2026-02-05T14:20:00Z",
+          "uploadedBy": "usr_sarah_1"
+        },
+        {
+          "id": "att_4",
+          "name": "merchant-icons.zip",
+          "size": "1.2 MB",
+          "url": "#",
+          "uploadedAt": "2026-02-05T15:00:00Z",
+          "uploadedBy": "usr_sarah_1"
+        }
+      ],
+      "order": 0,
+      "createdAt": "2026-02-05T10:00:00.000Z",
+      "updatedAt": "2026-11-07T10:45:03.777Z"
+    },
+    {
+      "_id": "task_6",
+      "title": "Interactive budget breakdown pie and bar visualization",
+      "description": "Build responsive SVG interactive visual charts showing monthly expenses vs planned budget with category drill-down on click.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "usr_alex_2",
+      "creator": "usr_elena_4",
+      "startDate": "2026-11-04T10:38:07.131Z",
+      "dueDate": "2026-11-11T10:38:07.131Z",
+      "labels": [
+        "Analytics",
+        "Charts",
+        "Frontend"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_6_1",
+          "title": "Monthly spending totals aggregator aggregation pipeline",
+          "completed": true
+        },
+        {
+          "id": "sub_6_2",
+          "title": "Custom SVG donut chart with smooth hover slice scaling",
+          "completed": true
+        },
+        {
+          "id": "sub_6_3",
+          "title": "Tooltip micro-component with currency formatting",
+          "completed": false
+        }
+      ],
+      "attachments": [],
+      "order": 1,
+      "createdAt": "2026-02-05T16:00:00.000Z",
+      "updatedAt": "2026-02-05T16:00:00.000Z"
+    },
+    {
+      "_id": "task_7",
+      "title": "Push notification delivery pipeline for fraud alerts",
+      "description": "Socket.IO and APNs/FCM delivery engine with immediate retry policy and priority delivery channel.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "in_review",
+      "priority": "urgent",
+      "assignee": "usr_david_3",
+      "creator": "usr_alex_2",
+      "startDate": "2026-11-02T10:38:07.131Z",
+      "dueDate": "2026-11-09T10:38:07.131Z",
+      "labels": [
+        "Realtime",
+        "WebSockets",
+        "Security"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_7_1",
+          "title": "Socket.io broadcast room authentication middleware",
+          "completed": true
+        },
+        {
+          "id": "sub_7_2",
+          "title": "Fraud velocity rules evaluator (over $1,000 in 1 minute)",
+          "completed": true
+        },
+        {
+          "id": "sub_7_3",
+          "title": "End-to-end integration tests with simulated latency",
+          "completed": true
+        }
+      ],
+      "attachments": [
+        {
+          "id": "att_5",
+          "name": "notification-architecture.png",
+          "size": "890 KB",
+          "url": "#",
+          "uploadedAt": "2026-02-06T11:00:00Z",
+          "uploadedBy": "usr_david_3"
+        }
+      ],
+      "order": 0,
+      "createdAt": "2026-02-06T09:00:00.000Z",
+      "updatedAt": "2026-02-06T09:00:00.000Z"
+    },
+    {
+      "_id": "task_8",
+      "title": "Dark mode theme token refinements in Figma and CSS",
+      "description": "Audit dark theme contrast: ensure slate-900 canvas `#0B0F19` with elevated card surface `#151D2F` maintain crisp separation and soft shadows.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "in_review",
+      "priority": "medium",
+      "assignee": "usr_elena_4",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-11-03T10:38:07.131Z",
+      "dueDate": "2026-11-08T10:38:07.131Z",
+      "labels": [
+        "Design System",
+        "Dark Mode",
+        "Styling"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_8_1",
+          "title": "Define dark mode neutral grays & border contrasts",
+          "completed": true
+        },
+        {
+          "id": "sub_8_2",
+          "title": "Update Tailwind config with semantic dark classes",
+          "completed": true
+        },
+        {
+          "id": "sub_8_3",
+          "title": "Verify contrast on priority badges in dark view",
+          "completed": true
+        }
+      ],
+      "attachments": [],
+      "order": 1,
+      "createdAt": "2026-02-06T13:00:00.000Z",
+      "updatedAt": "2026-02-06T13:00:00.000Z"
+    },
+    {
+      "_id": "task_9",
+      "title": "User profile and team permissions matrix setup",
+      "description": "Granular RBAC permissions for workspace Owners, Admins, Members, and Viewers with route-level guards.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "done",
+      "priority": "high",
+      "assignee": "usr_sarah_1",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-01-25T09:00:00.000Z",
+      "dueDate": "2026-02-02T18:00:00.000Z",
+      "labels": [
+        "Auth",
+        "Security",
+        "Backend"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_9_1",
+          "title": "Define Permission enum and WorkspaceMember schema",
+          "completed": true
+        },
+        {
+          "id": "sub_9_2",
+          "title": "Express authentication middleware token verification",
+          "completed": true
+        },
+        {
+          "id": "sub_9_3",
+          "title": "Role selector in Workspace Settings tab",
+          "completed": true
+        }
+      ],
+      "attachments": [],
+      "order": 0,
+      "createdAt": "2026-01-25T09:00:00.000Z",
+      "updatedAt": "2026-02-02T17:00:00.000Z"
+    },
+    {
+      "_id": "task_10",
+      "title": "Card freeze / unfreeze instant toggle switch",
+      "description": "Instant lock card feature with animated switch, immediate server ack, and visual card frost effect.",
+      "project": "proj_banking_1",
+      "workspace": "ws_apex_1",
+      "status": "done",
+      "priority": "urgent",
+      "assignee": "usr_alex_2",
+      "creator": "usr_sarah_1",
+      "startDate": "2026-01-28T10:00:00.000Z",
+      "dueDate": "2026-02-04T18:00:00.000Z",
+      "labels": [
+        "Mobile",
+        "Frontend",
+        "Animation"
+      ],
+      "subtasks": [
+        {
+          "id": "sub_10_1",
+          "title": "Frosted glass shader effect on locked card mockup",
+          "completed": true
+        },
+        {
+          "id": "sub_10_2",
+          "title": "Optimistic UI update with rollback on network fail",
+          "completed": true
+        },
+        {
+          "id": "sub_10_3",
+          "title": "Audit log entry created whenever state flips",
+          "completed": true
+        }
+      ],
+      "attachments": [],
+      "order": 1,
+      "createdAt": "2026-01-28T10:00:00.000Z",
+      "updatedAt": "2026-02-04T16:00:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "_id": "comm_1",
+      "task": "task_5",
+      "user": "usr_alex_2",
+      "content": "Hey @Sarah Connor, the new receipt drawer look is stunning! Should we also let users export as CSV or just PDF for now?",
+      "mentions": [
+        "usr_sarah_1"
+      ],
+      "createdAt": "2026-11-07T05:38:07.132Z"
+    },
+    {
+      "_id": "comm_2",
+      "task": "task_5",
+      "user": "usr_sarah_1",
+      "content": "Great point @Alex Rivera! Let us start with high-fidelity PDF, and we can add CSV export in Sprint 4.",
+      "parentComment": "comm_1",
+      "mentions": [
+        "usr_alex_2"
+      ],
+      "createdAt": "2026-11-07T07:38:07.132Z"
+    },
+    {
+      "_id": "comm_3",
+      "task": "task_7",
+      "user": "usr_david_3",
+      "content": "I have configured the WebSockets channel and added simulated jitter tests. Latency stays below 28ms across 500 concurrent connections.",
+      "mentions": [],
+      "createdAt": "2026-11-07T02:38:07.132Z"
+    },
+    {
+      "_id": "comm_1794047903474_kru8",
+      "task": "task_1",
+      "user": "usr_sarah_1",
+      "content": "Verified in integration suite with @Alex Rivera!",
+      "mentions": [
+        "usr_alex_2"
+      ],
+      "createdAt": "2026-11-07T10:38:23.474Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif_1794047903475_usr_alex_2",
+      "recipient": "usr_alex_2",
+      "sender": "usr_sarah_1",
+      "type": "comment_added",
+      "title": "Mentioned in comment",
+      "message": "Sarah Connor mentioned you on \"Biometric FaceID & TouchID fallback authentication\"",
+      "link": "/projects/proj_banking_1?task=task_1",
+      "read": false,
+      "createdAt": "2026-11-07T10:38:23.475Z"
+    },
+    {
+      "_id": "notif_1",
+      "recipient": "usr_sarah_1",
+      "sender": "usr_alex_2",
+      "type": "comment_added",
+      "title": "New comment on Receipt Drawer",
+      "message": "Alex Rivera replied to your discussion on \"Redesign transaction details drawer\"",
+      "link": "/projects/proj_banking_1?task=task_5",
+      "read": false,
+      "createdAt": "2026-11-07T07:38:07.132Z"
+    },
+    {
+      "_id": "notif_2",
+      "recipient": "usr_sarah_1",
+      "sender": "usr_david_3",
+      "type": "status_changed",
+      "title": "Task moved to In Review",
+      "message": "David Chen moved \"Push notification delivery pipeline\" to In Review",
+      "link": "/projects/proj_banking_1?task=task_7",
+      "read": false,
+      "createdAt": "2026-11-07T02:38:07.132Z"
+    },
+    {
+      "_id": "notif_3",
+      "recipient": "usr_sarah_1",
+      "sender": "usr_elena_4",
+      "type": "task_assigned",
+      "title": "Assigned to new task",
+      "message": "Elena Rostova assigned you to \"Accessibility audit for WCAG 2.1 AA compliance\"",
+      "link": "/projects/proj_banking_1?task=task_3",
+      "read": true,
+      "createdAt": "2026-11-06T10:38:07.132Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "_id": "act_1794048303779",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_5",
+      "user": "usr_sarah_1",
+      "action": "Moved task",
+      "details": "Moved \"Redesign transaction details drawer with receipt download\" to done",
+      "createdAt": "2026-11-07T10:45:03.780Z"
+    },
+    {
+      "_id": "act_1794047903476",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_1",
+      "user": "usr_sarah_1",
+      "action": "Added comment",
+      "details": "Commented on \"Biometric FaceID & TouchID fallback authentication\": \"Verified in integration suite with @Alex Rivera!\"",
+      "createdAt": "2026-11-07T10:38:23.476Z"
+    },
+    {
+      "_id": "act_1794047903463",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_1",
+      "user": "usr_sarah_1",
+      "action": "Moved task",
+      "details": "Moved \"Biometric FaceID & TouchID fallback authentication\" to done",
+      "createdAt": "2026-11-07T10:38:23.463Z"
+    },
+    {
+      "_id": "act_1",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_7",
+      "user": "usr_david_3",
+      "action": "Moved task",
+      "details": "Moved \"Push notification delivery pipeline\" from In Progress to In Review",
+      "createdAt": "2026-11-07T02:38:07.132Z"
+    },
+    {
+      "_id": "act_2",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_5",
+      "user": "usr_sarah_1",
+      "action": "Added comment",
+      "details": "Commented on \"Redesign transaction details drawer with receipt download\"",
+      "createdAt": "2026-11-07T07:38:07.132Z"
+    },
+    {
+      "_id": "act_3",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_10",
+      "user": "usr_alex_2",
+      "action": "Completed task",
+      "details": "Marked \"Card freeze / unfreeze instant toggle switch\" as Done",
+      "createdAt": "2026-11-05T10:38:07.132Z"
+    },
+    {
+      "_id": "act_4",
+      "workspace": "ws_apex_1",
+      "project": "proj_banking_1",
+      "task": "task_9",
+      "user": "usr_sarah_1",
+      "action": "Completed task",
+      "details": "Marked \"User profile and team permissions matrix setup\" as Done",
+      "createdAt": "2026-11-03T10:38:07.132Z"
+    }
+  ]
+}
